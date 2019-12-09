@@ -1,0 +1,96 @@
+.button{
+position: absolute;
+justify-content: center;
+align-items: center;
+width: 88vw;
+height: 10vh;
+top: 25vh;
+right: 0%;
+font-family:  'Maven Pro', sans-serif;
+font-weight: 300;
+font-size: 1em;
+text-transform: uppercase;
+display: -webkit-inline-box;
+display: -moz-inline-box;
+display: inline-box;
+display: -webkit-inline-flex;
+display: -moz-inline-flex;
+display: -ms-inline-flexbox;
+display: inline-flex;
+
+}
+
+.button > div {justify-content: center;
+align-items: center;
+position: absolute;
+width: 160px;
+height: 50px;
+-webkit-perspective: 1000px;
+-moz-perspective: 1000px;
+perspective: 1000px;
+}
+.button > div > a {justify-content: center;
+align-items: center;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+position: absolute;
+-webkit-transform-style: preserve-3d;
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+transform-style: preserve-3d;
+-webkit-transform: translateZ(-25px);
+-moz-transform: translateZ(-25px);
+-ms-transform: translateZ(-25px);
+-o-transform: translateZ(-25px);
+transform: translateZ(-25px);
+-webkit-transition: -webkit-transform 0.25s;
+-moz-transition: -moz-transform 0.25s;
+transition: transform .3s;
+}
+.button > div > a::before, .button > div > a::after {
+left: -80px;
+justify-content: center;
+align-items: center;
+width: 160px;
+height: 50px;
+position: absolute;
+border: 3px solid black;
+box-sizing: border-box;
+content: attr(title);
+display: -webkit-box;
+display: -moz-box;
+display: box;
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.button > div > a::before {
+background-color: #000;
+color: rgb(0, 0, 0);
+-webkit-transform: rotateY(0deg) translateZ(25px);
+-moz-transform: rotateY(0deg) translateZ(25px);
+-ms-transform: rotateY(0deg) translateZ(25px);
+-o-transform: rotateY(0deg) translateZ(25px);
+transform: rotateY(0deg) translateZ(25px);
+}
+.button > div > a::after {
+background-color: #fff;
+border-color: #000;
+color: #000;
+-webkit-transform: rotateX(90deg) translateZ(25px);
+-moz-transform: rotateX(90deg) translateZ(25px);
+-ms-transform: rotateX(90deg) translateZ(25px);
+-o-transform: rotateX(90deg) translateZ(25px);
+transform: rotateX(90deg) translateZ(25px);
+}
+.button > div > a:hover {
+-webkit-transform: translateZ(-25px) rotateX(-90deg);
+-moz-transform: translateZ(-25px) rotateX(-90deg);
+-ms-transform: translateZ(-25px) rotateX(-90deg);
+-o-transform: translateZ(-25px) rotateX(-90deg);
+transform: translateZ(-25px) rotateX(-90deg);
+}
