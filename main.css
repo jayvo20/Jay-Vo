@@ -31,6 +31,7 @@ header {
       98% { opacity: 0.8;}
       100%  { opacity: 1;} 
       }
+      
 
 nav {margin-left: 4vw;
       position: fixed;
@@ -172,18 +173,19 @@ ul.cat li:last-child:after {
       grid-template-columns: repeat(5, 1fr);
       grid-gap: 0px;
       margin: auto;}
-.project1{background-image:url(box/img/projects/bfaposter.png);}
-.project2{background-image:url(box/img/projects/test.gif);}
-.project3{background-image:url(box/img/projects/bananashoot.png)}
-.project4{background-image:url(box/img/projects/alphabetposter.png);}
-.project5{background-image:url(box/img/projects/beloved.png);}
-.project6{background-image:url(box/img/projects/albumcover.png);}
-.project7{background-image:url(box/img/projects/movieposter.png);}
-.project8{background-image:url(box/img/projects/festposter.png);}
-.project9{background-image:url(box/img/projects/book.png);}
-.project10{background-image:url(box/img/projects/outdoor.png);}
-.project11{background-image:url(box/img/projects/lion_icon.png);}
-.project12{background-image:url(box/img/projects/tako-logo.png);}
+      .portfolio > a { text-decoration: none;}
+.project1{background-image:url(box/portfolio/1-musiccover.png);}
+.project2{background-image:url(box/portfolio/2-shockwave.png);}
+.project3{background-image:url(box/portfolio/3-takogrill.png);}
+.project4{background-image:url(box/portfolio/4-website.png);}
+.project5{background-image:url(box/portfolio/5-banana.png);}
+.project6{background-image:url(box/portfolio/6-scoutdoor.png);}
+.project7{background-image:url(box/portfolio/7-bookcover.png);}
+.project8{background-image:url(box/portfolio/8-jaws.jpg);}
+.project9{background-image:url(box/portfolio/9-alphabetposter.jpg);}
+.project10{background-image:url(box/portfolio/10-kingcrab.png);}
+.project11{background-image:url(box/portfolio/11-festivalposter.png);}
+.project12{background-image:url(box/portfolio/12-book.png);}
 
 .project1:hover,.project2:hover, .project3:hover,.project4:hover,.project5:hover,.project6:hover,.project7:hover,.project8:hover,.project9:hover,.project10:hover,.project11:hover,.project12:hover,.project13:hover,.project14:hover,.project15:hover{
       transform: scale(1.04);
@@ -221,7 +223,7 @@ box-shadow: 0 3000px rgba(255, 255, 255, 0) inset;}
 animation-name: text;
 width: 100%;
 height: 100%;
-color: white;
+color: rgb(255, 255, 255);
 overflow: hidden;
 opacity: 0;
 font-family: 'Maven Pro', sans-serif;
@@ -229,8 +231,9 @@ font-weight: 400;
 font-size: 2em;}
 
 .text-hover:hover { opacity: 1;
-      transform: translateY(50%);
+      transform: translateY(35%);
       box-shadow: none;}
+      
 
 .small {overflow: hidden;
       grid-column: span 2;
@@ -294,7 +297,7 @@ width: 60%;}}
       width: 38px;
       height: 4px;
       border-radius: 2px;
-      background-color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
       margin: 6px;
       transition: all 0.3s ease;}
 

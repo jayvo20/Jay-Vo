@@ -2,7 +2,7 @@
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
-@media screen and (max-width: 375px)
+@media screen and (max-width: 415px)
 {
 .logo { 
       padding: 6px 16px;
@@ -51,7 +51,7 @@ padding: 10vh 0;}
 .nav-links li {
 cursor: pointer;
 opacity: 0;
-background-color: black;
+background-color: rgb(255, 255, 255);
 padding: 20px 30px;
 width: 100vw;
 border: 10px solid rgb(255, 255, 255);
