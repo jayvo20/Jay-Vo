@@ -86,20 +86,20 @@ nav {margin-left: 4vw;
       filter: blur(0);}
       
 /* intro box included animation logo + Jay Vo brand */
-.Intro { 
+/* .Intro { 
       position: absolute;
       width: 90vw;
       height: 92vh;
       top: 20vh;
       transform: translate(0%, 0%);
-      overflow: hidden;}
+      overflow: hidden;} */
 
 /* box of logo animation */
-#Layer_1 {
+/* #Layer_1 {
       margin-left: auto;
       margin-right: auto;
       width: 300px;
-      height: 500px;}
+      height: 500px;} */
 
 /* Name animation */
 
@@ -118,7 +118,7 @@ nav {margin-left: 4vw;
 .container3 { height: 30vh;
 margin: auto;width: 92vw;
 background: rgb(0, 0, 0);}
-.worktitle {padding: 5vh 0vh;
+.worktitle {padding: 0vh 0vw;
       width: 92vw;
       height: auto;
       background-color: rgb(0, 0, 0);
@@ -173,7 +173,6 @@ ul.cat li:last-child:after {
       grid-template-columns: repeat(5, 1fr);
       grid-gap: 0px;
       margin: auto;}
-      .portfolio > a { text-decoration: none;}
 .project1{background-image:url(box/portfolio/1-musiccover.png);}
 .project2{background-image:url(box/portfolio/2-shockwave.png);}
 .project3{background-image:url(box/portfolio/3-takogrill.png);}
@@ -226,9 +225,15 @@ height: 100%;
 color: rgb(255, 255, 255);
 overflow: hidden;
 opacity: 0;
-font-family: 'Maven Pro', sans-serif;
-font-weight: 400;
+
+}
+.text-hover>h1 {font-weight: 700;
+      font-family: 'Maven Pro', sans-serif;
 font-size: 2em;}
+.text-hover>h2 {
+      font-family: 'Fauna One', serif;
+      font-weight: 200;
+      font-size: 1em;}
 
 .text-hover:hover { opacity: 1;
       transform: translateY(35%);
@@ -258,20 +263,6 @@ font-size: 2em;}
       
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tablet Screen */
 /* Tablet Screen */
 @media screen and (max-width: 1024px)
@@ -281,8 +272,6 @@ justify-content:space-around;
 width: 60%;}}
 /* Tablet Screen */
 /* Tablet Screen */
-
-
 
 
 
@@ -338,93 +327,16 @@ width: 60%;}}
       margin: auto;width: 92vw;
       background: rgb(255, 145, 0);
 	position: relative;
-	text-align: center;}
- .footer-bottom {width: 92vw; 
-	margin: auto;
-	position: relative;
-      padding-top: 50px;
-      background: yellow;
-}
-.footer-nav {margin-left: 0px;
-margin-top: 2vh; }
-
-.footer-nav ul li {
-	list-style: none;
-      margin: auto;
-      text-align: center; 
-      display: inline-block;
-}
-.footer-nav ul li a {text-decoration: none;
-	padding: 16px;
-	color: #d23c93;
-	font-family: 'Archivo-Narrow', sans-serif;
-	font-weight: 400;
-      font-size: 1em;
-      text-transform: uppercase;
-}
-
-.footer-logos a.company-logo img{
-	width: 45px;
-	height: 45px;
-	margin-bottom: 10px;}
-
-
-.footer-logos .company-name {
-	font-size: 28px;
-	color: rgb(128, 42, 42);
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	letter-spacing: 2px;
-	display: block;}
-
+      text-align: center;}
+      
+ 
 /* close footer nav */
 
 
 
 
-.footer-copyright{width:36vw;
-	margin: auto;
-	border-top: 1px #AD0611 solid;
-      padding-top: 10px;
+
       
-}
-.footer-copyright p{
-	color: #AD0611;
-	padding-bottom: 20px;
-	font-size: 1em;
-	font-family: 'Maven Pro', sans-serif;
-	font-weight: 300;
-}
-.footer-copyright a{
-      text-decoration: none;
-	color: #7ab8ff;
-	font-size: 1em;
-      font-family: 'Maven Pro', sans-serif;
-      font-weight: 500;}
 
-      /* copy right */
-
-.s-m {width: 40vw;
-      margin: auto;
-position: relative;}
-
-.s-m a{ 
-      display: inline-flex;
-      width: 50px;
-      height: 50px;
-      background: #6abb4d;
-      padding: 8px;
-      color: white;
-      border-radius: 50%;
-      justify-content: center;
-      align-items: center;
-      transition: 0.4s;
-      font-size: 1em;
-      margin: 10px 20px 10px 20px;
-      text-decoration: none;}
-
-.s-m a:hover { background: #f3be33;}
-.s-m a i{transition: 0.3s all;}
-.s-m a:hover > i{transform: scale(1.5) rotate(360deg);}
           
        
