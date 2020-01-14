@@ -1,0 +1,187 @@
+header {
+      z-index: -1;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10vh;
+      width: 92vw;
+      height: 70vh;
+      background-color: white;
+      background-image: url(../../box/project/3/takogrillcover.png);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;}
+/* logo on nav  */
+
+/* intro box included animation logo + Jay Vo brand */
+
+.skillset {display: none;
+}
+/* 2ND PAGE */
+.container3 { height: 30vh;;
+margin: auto;width: 92vw;
+background: rgb(0, 0, 0);}
+
+/* Category Menu */
+.container2 {margin: auto;width: 92vw;
+      background: rgb(0, 0, 0);
+height: 5vh;}
+.wrapper2 { display:grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-auto-rows: minmax(5vh,auto);}
+.category {position: fixed;
+      transform: rotate(270deg);
+      margin-left: -150px;
+      top: 180vh;
+	width: 50vw;;
+	text-align: center;
+	}
+.category ul li { display: inline-block;
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: #000000;
+	list-style: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 7px 15px;
+	position: sticky;
+	border-radius: 2px;
+}
+ul.cat li:last-child:after {
+	position: relative;
+	content: '';
+}
+
+
+/* Portfolio Section */
+
+ 
+.main-content {
+      min-height: 300vh;
+      width: 100vw;
+      }
+      
+.wrapper{width: 92vw;
+      margin-left: auto;
+      margin-right: auto;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(15vh,auto);}
+.profolio > div {}
+
+.empty{background-color: rgb(0, 0, 0);
+      grid-column: 1/6;
+      grid-row: 1/2;}
+
+.one {
+      background-image: url(../../box/project/3/company.png);
+      background-color: rgb(0, 0, 0);
+      grid-column: 1/3;
+      grid-row: 2/5;
+      overflow: hidden;
+      background-size: cover;
+      padding-bottom: 100px;}
+      
+.two {background-color: rgb(0, 0, 0);
+      color: white;
+      grid-column: 3/6;
+      grid-row: 3/5;
+      padding: 0vh 5vw;
+      display: block;
+      text-align: left;}
+.three {
+      background-image: url(../../box/project/3/takogrill-item01.png);
+      grid-column: 1/6;
+      grid-row: 6/13;
+      overflow: hidden;
+      background-size: cover;}
+.four {grid-column: 1/4;
+      grid-row: 13/17;
+      background-image: url(../../box/project/3/takogrill-item02.png);
+      overflow: hidden;
+      background-size: cover;}
+.five {grid-column:4/6;
+      grid-row: 13/17;;
+      background-image: url(../../box/project/3/takogrill-item03.png);
+      overflow: hidden;
+      background-size: cover;}
+
+.six {grid-column: 1/4;
+      grid-row: 17/22;
+      background-color: rgb(255, 255, 255);
+      background-image: url(../../box/project/3/takogrill-item04.png);
+      overflow: hidden;
+      background-size: cover;}
+      .seven {grid-column: 4/6;
+            grid-row: 17/22;
+            background-color: rgb(255, 255, 255);
+            background-image: url(../../box/project/3/takogrill-item05.png);
+            overflow: hidden;
+            background-size: cover;}
+
+
+
+/* next and previous button */
+.wrapper2 {padding-top: 10vh;
+      width: 92vw;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(15vh,auto);}
+
+.previous {
+grid-column: 1/3;
+grid-row: 1/2;
+float: left;}
+
+.next {background-color: rgb(0, 0, 0);
+grid-column: 4/6;
+grid-row: 1/2;
+float: right;}
+      
+    
+.btn {cursor: pointer;
+background: transparent;
+color: inherit;
+text-decoration: none;
+border: 0;
+transition: all 200ms ease-in;
+
+}
+.btn-default {
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font-family: 'Archivo Black', sans-serif;
+font-size: 0.75em;
+font-weight: 300;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+border: 4px solid rgb(255, 255, 255);
+padding: 12px 28px;
+}
+.btn-default:hover {
+background: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border: 4px solid rgb(255, 21, 21);
+-webkit-transform: skew(-10deg);
+transform: skew(10deg);
+}
+.btn {
+-webkit-transform: skew(-10deg);
+transform: skew(-10deg);}
+
+    
+    
+
+
+
+
+      
+
+
+
+
+
