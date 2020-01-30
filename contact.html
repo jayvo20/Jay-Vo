@@ -96,21 +96,26 @@ Jay Vo / Graphic Design, Illustration, Interactive Design
  <div class="empty"></div>
 
 
- <div class="contact-box">
-         <div class="left"></div>
-         <div class="right">
-         <h2> get in touch with me</h2>
-         <input type="text" class="field" placeholder="your name">
-         <input type="email" class="field" placeholder="your Email">
-         <input type="text" class="field" placeholder="Your phone">
-         <textarea class="field" placeholder="Message"></textarea>
-         <button class="btn" name="button">Send</button>
+ 
+<div class="contact-box">
+        <div class="contact-header">
+                <h1>get in touch with me</h1>
         </div>
 
+        <div class="contact-form">
+                <form id="contact-form" method="post" action="contact-form-handler.php">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+                    
+                    <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+                    
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                
+                </form>
+        </div>
 
-         
- </div>
-  
+</div>
 
 </div>
 </div>
