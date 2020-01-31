@@ -19,10 +19,11 @@ letter-spacing: 0.5px;
 text-transform: uppercase;} /* title text */
 
 h2 { font-family: 'Archivo Black', sans-serif;
-font-size: 0.75em;
+font-size: 1.25em;
 font-weight: 900;
 letter-spacing: 0.5px;
 text-transform: uppercase;}
+
 h3 { font-family: 'Montserrat', sans-serif;
   font-size: 0.85em;
   font-weight: 300;

@@ -112,55 +112,38 @@ background: rgb(0, 0, 0);}
       height: auto;
       background-color: rgb(0, 0, 0);}
 
-.contact-header {
-font-family: 'Archivo Black', sans-serif;
-font-weight: 900;
-letter-spacing: 0.5px;
-text-transform: uppercase;
-color: white;
-transition: all 4s ease-in-out;
-border: 1px solid green;}
 
-.contact-header h1 {font-size: 2em;}
 
 .form {
-transition: all 4s ease-in-out;
-border: 5px solid green; }
+transition: all 4s ease-in-out; }
 
 .form-control{
-      width: 40vw;margin: 2vh;
+      width: 40vw;
+      margin: 2vh;
       background: transparent;
       border: none;
       outline: none;
-      border-bottom: 2px solid grey;
-      color: white;
+      border-bottom: 1px solid grey;
+      color: rgb(233, 99, 99);
       font-size: 1.5em;
       margin-bottom: 16px;
 }
 input {height:10vh;}
 
 
-.form-control.submit { background :#ff5722 ;
+.form-control.submit { background :#ff0000 ;
+      margin-top: 10vh;
 border-color: transparent;
 color: white;
-font-weight: bold;}
+font-weight: bold;
+letter-spacing: 2px;}
+
 .form-control.submit:hover 
 {background-color: #f44336;
 cursor: pointer;}
 
 
 
-h2 {position: relative;
-      padding-bottom: 10px;
-      margin-bottom: 10px;
-      color: white;}
-      h2:after { content: '';
-      position: absolute;
-      left: 50%;
-      bottom: 0;
-      transform: translateX(-50%);
-      border-radius: 2px;
-      }
 @media screen and (max-width: 880px){
        .contact-box{ grid-template-columns: 1fr}
        .left{height: 200px}
@@ -213,15 +196,14 @@ ul.cat li:last-child:after {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 10px;
-      grid-auto-rows: minmax(20vh, auto);}
+      grid-auto-rows: minmax(10vh, auto);}
 
 .empty{background-color: rgb(0, 0, 0);
       grid-column: 1/4;
       grid-row: 1/2}
 
 .contact-box {grid-column: 1/4;
-            grid-row: 2/5;
-            border: 1px solid red;}
+            grid-row: 2/5;}
 
 
 
