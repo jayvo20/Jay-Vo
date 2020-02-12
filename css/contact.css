@@ -113,13 +113,13 @@ background: rgb(0, 0, 0);}
       background-color: rgb(0, 0, 0);}
 
 
-
+.contact-header { color: white; }
 .form {
 transition: all 4s ease-in-out; }
 
 .form-control{
-      width: 40vw;
-      margin: 2vh;
+      width: 50vw;
+      margin-top: 5vh;
       background: transparent;
       border: none;
       outline: none;

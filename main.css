@@ -12,124 +12,17 @@ header {
       background-repeat: no-repeat;
       background-size: cover;}
 
-/* logo on nav  */
-.logo {
-      position: absolute;
-      top: 0;
-      left: -0.5%;
-      padding: 5px 20px;
-      -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: fadein 1s; /* Firefox < 16 */
-      -ms-animation: fadein 1s; /* Internet Explorer */
-      -o-animation: fadein 3s; /* Opera < 12.1 */
-      animation: fadein 1s cubic-bezier(0.645, 0.045, 0.355, 1);}
-      @keyframes fadein {
-      0%    { opacity: 1;}
-      50%   { opacity: 0.8;}
-      90% { opacity: 0.9;}
-      95% { opacity: 0.1;}
-      98% { opacity: 0.8;}
-      100%  { opacity: 1;} 
-      }
-      
+/* logo on nav in share css */
 
-nav {margin-left: 4vw;
-      position: fixed;
-      display: flex;
-      justify-content: space-around;
-      min-height: 8vh;
-      width: 92vw;
-      font-family: 'Montserrat', sans-serif;
-      background-color: rgba(255, 255, 255, 0.541);
-      box-shadow: 0 -2px 15px 2px rgba(255, 71, 71, 0.05);
-      z-index: 900;}
+  
 
-.nav-links {
-      position: absolute;
-      display: flex;
-      width: 50%;
-      display: flex;
-      justify-content: space-around;
-      right: 0%;
-      top: 15%;
-      font-size: 0.75em;
-      font-weight: 300;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif;}
+.skillset {display: none;}
 
-.nav-links li{
-      list-style: none;
-      transition: opacity 0.3s;
-      padding: 10px 0px;}
-
-
-.nav-links a{
-      color: black;
-      text-decoration: none; 
-      cursor: pointer;
-      position: relative;
-      padding: 0 0.5em 0 0.2em;
-      transition: 0.5s;
-}
-.nav-links:hover li a{
-      font-weight: 300;
-      color: black;
-      transform: scale(1);
-      opacity: .1;
-      filter: blur(1px);
-}
-.nav-links li a:hover {
-      color: black;
-      font-weight: 500;
-      opacity: 1;
-      filter: blur(0);}
-      
-/* intro box included animation logo + Jay Vo brand */
-/* .Intro { 
-      position: absolute;
-      width: 90vw;
-      height: 92vh;
-      top: 20vh;
-      transform: translate(0%, 0%);
-      overflow: hidden;} */
-
-/* box of logo animation */
-/* #Layer_1 {
-      margin-left: auto;
-      margin-right: auto;
-      width: 300px;
-      height: 500px;} */
-
-/* Name animation */
-
-
-
-
-
-.skillset {display: none;
-}
-
-
-
-
-
-/* 2ND PAGE */
-.container3 { height: 30vh;
-margin: auto;width: 92vw;
-background: rgb(0, 0, 0);}
-.worktitle {padding: 0vh 0vw;
-      width: 92vw;
-      height: auto;
-      background-color: rgb(0, 0, 0);
-}
-
-      
-/* Category Menu */
-.container2 {margin: auto;width: 92vw;
+/* 1st PAGE */
+.container {margin: auto;width: 92vw;
       background: rgb(0, 0, 0);
 height: 5vh;}
-.wrapper2 { display:grid; 
+.wrapper { display:grid; 
 	grid-template-columns: repeat(1, 1fr);
 	grid-auto-rows: minmax(5vh,auto);}
 .category {position: fixed;
@@ -137,8 +30,7 @@ height: 5vh;}
       margin-left: -150px;
       top: 180vh;
 	width: 50vw;;
-	text-align: center;
-	}
+	text-align: center;}
 .category ul li { display: inline-block;
 	font-family: 'Maven Pro', sans-serif;
 	font-weight: 100;
@@ -149,21 +41,25 @@ height: 5vh;}
 	text-transform: uppercase;
 	padding: 7px 15px;
 	position: sticky;
-	border-radius: 2px;
-}
+	border-radius: 2px;}
 ul.cat li:last-child:after {
 	position: relative;
-	content: '';
-}
-
+      content: '';}
+      
+/* 2ND PAGE */
+.container2 { height: 30vh;
+            margin: auto;width: 92vw;
+            background: rgb(0, 0, 0);}
+.worktitle {cursor: pointer;
+            padding: 0vh 0vw;
+            width: 92vw;
+            height: auto;
+            background-color: rgb(0, 0, 0);}
 
 /* Portfolio Section */
-
- 
 .main-content {
       min-height: 100vh;
-      width: 100vw;
-      }
+      width: 100vw;}
       
 .portfolio{background-color: rgb(0, 0, 0);
       display: grid;
@@ -173,6 +69,7 @@ ul.cat li:last-child:after {
       grid-template-columns: repeat(5, 1fr);
       grid-gap: 0px;
       margin: auto;}
+
 .project1{background-image:url(box/portfolio/1-musiccover.png);}
 .project2{background-image:url(box/portfolio/2-shockwave.png);}
 .project3{background-image:url(box/portfolio/3-takogrill.png);}
@@ -187,11 +84,12 @@ ul.cat li:last-child:after {
 .project12{background-image:url(box/portfolio/12-book.png);}
 
 .project1:hover,.project2:hover, .project3:hover,.project4:hover,.project5:hover,.project6:hover,.project7:hover,.project8:hover,.project9:hover,.project10:hover,.project11:hover,.project12:hover,.project13:hover,.project14:hover,.project15:hover{
-      transform: scale(1.04);
-      filter: contrast(110%);
-      transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      animation-name: text;
+transform: scale(1.04);
+filter: contrast(110%);
+transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+animation-name: text;
 box-shadow: none;}
+/* after hover on */
 
 .project1,.project2,.project3,.project4,.project5,.project6,.project7,.project8,.project9,.project10,.project11,.project12,.project13,.project14,.project15
 {background-color: rgba(20, 20, 20, 0.537);
@@ -202,44 +100,33 @@ width: 100%;
 height: 100%;
 filter: grayscale(100%);
 box-shadow: 0 3000px rgba(255, 255, 255, 0) inset;}
+/* current display */
 
 
-/* .post {background-color: rgba(226, 255, 192, 0.253);
-      transition: all ease-in-out 300ms;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      border: 2px solid blue;}
-
-.portfolio-item {
-      border: 2px solid rgba(29, 29, 29, 0.623);
-	text-align: center;
-	transition:all 0.5s ease;
-      opacity: 1;
-      background-color: rgba(29, 29, 29, 0.623);}
-
-.post:hover .post-text{
-            opacity: 1;} */
 .text-hover {transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 animation-name: text;
 width: 100%;
 height: 100%;
 color: rgb(255, 255, 255);
 overflow: hidden;
-opacity: 0;
+opacity: 0;}
 
-}
-.text-hover>h1 {font-weight: 700;
-      font-family: 'Maven Pro', sans-serif;
-font-size: 2em;}
+/* font & size */
+.text-hover>h1 {
+font-weight: 800;
+font-family: 'Montserrat', sans-serif;
+font-size: 2em;
+letter-spacing: 0.05em;}
 .text-hover>h2 {
-      font-family: 'Fauna One', serif;
-      font-weight: 200;
-      font-size: 1em;}
-
-.text-hover:hover { opacity: 1;
-      transform: translateY(35%);
-      box-shadow: none;}
+font-family: 'Fauna One', serif;
+font-weight: 200;
+font-size: 1em;}
+/* text transision */
+.text-hover:hover {opacity: 1;
+                  transform: translateY(35%);
+                  box-shadow: none;}
       
-
+/* size for the each box */
 .small {overflow: hidden;
       grid-column: span 2;
       grid-row: span 2;}
@@ -273,11 +160,7 @@ width: 60%;}}
 /* Tablet Screen */
 /* Tablet Screen */
 
-
-
-
-
-/* IPHONE SCREEN BURGER BAR */
+/* IPHONE SCREEN RGER BAR */
 /* burger bar *//* burger bar *//* burger bar *//* burger bar */
 .burger{ 
       width: 60px;
@@ -329,7 +212,6 @@ width: 60%;}}
 	position: relative;
       text-align: center;}
       
- 
 /* close footer nav */
 
 

@@ -124,8 +124,7 @@ padding-top: 10vh;}
       .medium { grid-column: span 3;
             grid-row: span 2;
             overflow: hidden;
-            background-color: white;
-            border: 1px solid green;}
+            background-color: white;}
       
       .large {overflow:hidden;
             grid-column: span 5;
