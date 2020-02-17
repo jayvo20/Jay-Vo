@@ -48,7 +48,8 @@ ul.cat li:last-child:after {
       
 /* 2ND PAGE */
 .container2 { height: 30vh;
-            margin: auto;width: 92vw;
+            margin: auto;
+            width: 92vw;
             background: rgb(0, 0, 0);}
 .worktitle {cursor: pointer;
             padding: 0vh 0vw;
@@ -162,17 +163,14 @@ width: 60%;}}
 
 /* IPHONE SCREEN RGER BAR */
 /* burger bar *//* burger bar *//* burger bar *//* burger bar */
-.burger{ 
-      width: 60px;
+.burger {width: 60px;
       display: none;}
-.burger div{
-      width: 38px;
+.burger div {width: 38px;
       height: 4px;
       border-radius: 2px;
       background-color: rgb(255, 255, 255);
       margin: 6px;
       transition: all 0.3s ease;}
-
 .toggle .line1{ transform:rotate(-45deg) translate(-8px, 6px);}
 .toggle .line2{ opacity: 0;}
 .toggle .line3{ transform:rotate(45deg) translate(-8px, -6px);}
