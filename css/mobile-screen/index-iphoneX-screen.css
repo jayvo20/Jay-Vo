@@ -6,17 +6,17 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
- .button{ display: none;}
- .button a { display: none;}
+.button{ display: none;}
+.button a { display: none;}
 .logo { 
       padding: 6px 16px;
-      transform: scale(0.9) ;}
+      transform: scale(1) ;}
   
 .burger { 
       position: fixed;
       display: block;
       top: 5px;
-      right: 3vw;
+      right: 2vw;
       padding: 6px;
       z-index: 999;
       cursor: pointer;}
@@ -26,13 +26,13 @@ header {background-image: url(../../box/gif/intro-compressed-small.gif);
       height: 100vh;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 6.5vh;}
+      margin-top: 7vh;}
       
 nav {
 position: fixed;
 display: flex;
 justify-content: space-around;
-min-height: 8vh;
+min-height: 7vh;
 width: 100vw;
 margin-left: -0vw;
 background-color:rgb(0, 0, 0);}
