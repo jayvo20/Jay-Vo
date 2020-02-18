@@ -22,8 +22,7 @@
       cursor: pointer;}
 
 header {background-image: url(../../box/gif/intro-compressed-small.gif) no-repeat fixed center center transparent;
-      -webkit-background-size: 100vw auto;
-      background-size: 100vw auto;
+      background-size: none;
       width: 100vw;
       height: 100vh;
       margin-left: auto;
