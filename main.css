@@ -9,8 +9,7 @@ header {
       background-image: url(box/gif/intro-compressed.gif);
       background-attachment: fixed;
       background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;}
+      background-repeat: no-repeat;}
 
 /* logo on nav in share css */
 
