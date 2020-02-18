@@ -22,7 +22,7 @@
       cursor: pointer;}
 
 header {background-image: url('../../box/gif/intro-compressed-small.gif');
-      background-repeat: round;
+      background-size: 100vw auto;
       width: 100vw;
       height: 100vh;
       margin-left: auto;
@@ -83,7 +83,7 @@ color: white;}
 .container2 { height: 20vh;
       margin: auto;}
 
-.worktitle 
+.worktitle {
       background-repeat: repeat;
 border: 1px solid green;}
 
