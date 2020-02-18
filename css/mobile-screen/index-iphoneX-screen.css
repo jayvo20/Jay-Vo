@@ -21,7 +21,8 @@
       z-index: 999;
       cursor: pointer;}
 
-header {background-image: url(../../box/gif/intro-compressed-small.gif);
+header {background-image: url('../../box/gif/intro-compressed-small.gif');
+      background-repeat: round;
       width: 100vw;
       height: 100vh;
       margin-left: auto;
@@ -79,12 +80,12 @@ color: white;}
 
 /* container2 */
 
-.container2 { height: 10vh;
+.container2 { height: 20vh;
       margin: auto;}
 
-.worktitle {background: url(../../../box/img/titles/work.png);
-height: 6vh;
-margin: auto;}
+.worktitle 
+      background-repeat: repeat;
+border: 1px solid green;}
 
 .main-content 
 {min-height: 100vh;
