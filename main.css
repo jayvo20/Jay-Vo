@@ -7,7 +7,6 @@ header {
       height: 86vh;
       background-color: white;
       background-image: url(box/gif/intro-compressed.gif);
-      background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;}
 
