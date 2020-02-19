@@ -45,7 +45,7 @@ ul.cat li:last-child:after {
       content: '';}
       
 /* 2ND PAGE */
-.container2 { height: 30vh;
+.container2 { height: 26vh;
             margin: auto;
             width: 92vw;
             background: rgb(0, 0, 0);}
