@@ -22,7 +22,6 @@
       cursor: pointer;}
 
 header {background-image: url(../../box/gif/intro-compressed-small.gif) no-repeat;
-      background-size: 100% auto;
       width: 100vw;
       height: 100vh;
       margin-left: auto;
@@ -85,7 +84,7 @@ color: white;}
 
 .worktitle {
       background-repeat: repeat;
-border: 1px solid green;}
+border: 3px solid green;}
 
 .main-content 
 {min-height: 100vh;
