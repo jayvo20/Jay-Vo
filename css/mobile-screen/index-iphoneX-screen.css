@@ -21,7 +21,7 @@
       z-index: 999;
       cursor: pointer;}
 
-header {background-image: url(../../box/gif/intro-compressed-small.gif) no-repeat;
+header {
       width: 100vw;
       height: 93vh;
       margin-left: auto;
