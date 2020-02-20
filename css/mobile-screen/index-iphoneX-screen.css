@@ -21,7 +21,7 @@
       z-index: 999;
       cursor: pointer;}
 
-header {background-size: auto 97vh;
+header {background-size: auto 93vh;
       width: 100vw;
       height: 93vh;
       margin-left: auto;
@@ -33,10 +33,9 @@ position: fixed;
 display: flex;
 justify-content: space-around;
 min-height: 7vh;
+margin-left: 0vw;
 width: 100vw;
-margin-left: -0vw;
 background-color:rgb(0, 0, 0);}
-
 .nav-links{ 
 position: fixed;
 z-index: 1;
@@ -67,6 +66,8 @@ height: 25vh;
 width: 100vw;}
 
 .nav-links a{
+margin-left: auto;
+ margin-right: auto;
 color: white;}
 .nav-links:hover li a{display: none;}
 .nav-links li a:hover {display: none;}
@@ -97,6 +98,7 @@ width: 100vw;}
       width: 100vw;
       background: rgb(0, 0, 0);}
 .portfolio{
+      overflow: hidden;
       background-color: rgb(0, 0, 0);
       display: block;
       height: 600vh;
