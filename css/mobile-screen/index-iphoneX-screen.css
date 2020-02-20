@@ -22,6 +22,7 @@
       cursor: pointer;}
 
 header {z-index: 99;
+      background-image: url(../../box/gif/intro-compressed-small.gif);
       background-size: auto 93vh;
       width: auto;
       height: 93vh;
