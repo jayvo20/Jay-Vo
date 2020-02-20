@@ -6,7 +6,7 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
-.button{ display: none;}
+.button{}
 .button a { display: none;}
 .logo { 
       padding: 6px 16px;
