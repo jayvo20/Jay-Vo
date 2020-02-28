@@ -45,4 +45,18 @@ nav {
     .nav-links li a:hover {display: none;}
     
         .nav-active {transform: translateY(-0%);}
+
+
+        .footer-nav {display: none;}
+        .s-m {width: 90vw;
+              margin: auto;}
+        .s-m a{width: 55px;
+              height: 55px;
+              margin: auto;
+              margin: 10px;}
+              .footer-copyright{width:94vw;
+                    margin: auto;
+        
+                    padding-top: 20px;}
+                    .footer-logos {display: none;}
     }

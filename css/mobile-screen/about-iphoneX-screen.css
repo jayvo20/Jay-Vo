@@ -12,8 +12,7 @@
       padding: 6px 16px;
       transform: scale(1) ;}
   
-      .burger { 
-            position: fixed;
+.burger {  position: fixed;
             display: block;
             top: 5px;
             right: 2vw;
@@ -23,7 +22,7 @@
 
 header {z-index: 99;
       background-image: url(../../box/gif/intro-compressed-small.gif);
-      width: 100vw;
+      width: auto;
       height: 30vh;
       background-color: white;
       margin-left: auto;
@@ -44,89 +43,36 @@ header {z-index: 99;
 
 .main-content 
 {min-height: 100vh;
-width: 100vw;}
+width: 100vw;
+overflow: hidden;}
 .empty{background-color: rgb(0, 0, 0);
       grid-column: 1/4;
       grid-row: 1/2}
 .one {background-color: rgb(0, 0, 0);
       grid-column: 1/4;
-      grid-row: 2/5;}
-.profilepic { object-fit: cover;
-      overflow: none;
-width: 100vw;
-height: auto;}
+      grid-row: 2/3;}
       
 .two {background-color: rgb(0, 0, 0);
       color: white;
       grid-column: 1/4;
-      grid-row: 5/6;
-padding: 0vh 10vw;
-display: block;
-text-align: left;}
+      grid-row: 4/5;
+      padding: 0vh 10vw;
+      display: block;
+      text-align: left;}
 .three {background-color: rgb(0, 0, 0);
       grid-column: 1/4;
-      grid-row: 8/7;
+      grid-row: 7/9;
       padding: 5vh 0vh}
 .four {background-color: white;
       grid-column: 1/4;
       grid-row: 9/10;}
 
-.container3 {position: relative;
-      height: 10vh;
+.resumetitle01 { width: 200vw;}
+.resume_paper { width: 92vw;}
+.profilepic { 
+      object-fit: cover;
       width: 100vw;
-      background: rgb(0, 0, 0);}
-.portfolio{
-      background-color: rgb(0, 0, 0);
-      display: block;
-      height: 600vh;
-      width: 100vw;}
-.project1,.project2,.project3,.project4,.project5,.project6,.project7,.project8,.project9,.project10,.project11,.project12,.project13,.project14,.project15
-{background-color: rgba(20, 20, 20, 0.537);
-background-size: cover;
-cursor: pointer;
-transition: 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-width: 96%;
-height: 98%;
-filter: none; 
-margin: auto;}
-
-.footer-nav {display: none;}
-.s-m {width: 90vw;
-      margin: auto;}
-.s-m a{width: 55px;
-      height: 55px;
-      margin: auto;
-      margin: 10px;}
-      .footer-copyright{width:94vw;
-            margin: auto;
-
-            padding-top: 20px;}
-            .footer-logos {display: none;}
-
-
-.small {
-      grid-column: 90vw;
-      height: 50vh;
-      overflow: hidden;}
-
-.medium { grid-column: 100vw;
-      height: 50vh;
-      overflow: hidden;}
-
-.large {grid-column: 100vw;
-      height: 50vh;
-      overflow: hidden;}
-
-.tall{ grid-column: 100vw;
-      height: 50vh;
-      overflow: hidden;}
-
-.wide {grid-column: 100vw;
-      height: 50vh;
-      overflow: hidden;}
-
-
-
+      height: auto;}
 
 
 /* animation for iphone screen nav */
@@ -147,14 +93,3 @@ transform: translateX(0px);
 
 
 
-
-
-
-
-@media screen and (max-width: 1024px){
-#Layer_1 { margin-top: 25%;
-margin-left: auto;
-margin-right: auto;}
-.header { height: 100vh;
-width: 100vw;}}
-}
