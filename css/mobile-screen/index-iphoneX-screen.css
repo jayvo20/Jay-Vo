@@ -82,7 +82,7 @@ transform: translateX(0px);
 }
 /* animation for iphone screen nav */
 
-
+}
 }
 /* close iphone screen */
 
@@ -100,4 +100,4 @@ margin-left: auto;
 margin-right: auto;}
 .header { height: 100vh;
 width: 100vw;}}
-}
+
