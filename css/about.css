@@ -10,7 +10,10 @@ header {
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;}
+      background-size: cover;
+      -webkit-background-attachment: fixed;
+      -webkit-background-position: center;
+      -webkit-background-size: cover;}
 
 /* logo on nav  */
 
