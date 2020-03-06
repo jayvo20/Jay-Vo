@@ -1,19 +1,19 @@
 
-      header {
-            z-index: 99;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10vh;
-            width: 92vw;
-            height: 40vh;
-            background-color: white;
-            background-image: url(../box/gif/intro-compressed.gif);
-            background-attachment: fixed;
-            background-position: center;
-            background-size: cover;
-            -webkit-background-attachment: fixed;
-            -webkit-background-position: center;
-            -webkit-background-size: cover;}
+header {
+z-index: 99;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10vh;
+width: 92vw;
+height: 40vh;
+background-color: white;
+background-image: url(../box/gif/intro-compressed.gif);
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+-webkit-background-attachment: fixed;
+-webkit-background-position: center;
+-webkit-background-size: cover;}
 
 /* logo on nav  */
 
