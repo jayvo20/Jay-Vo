@@ -5,7 +5,7 @@
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
-{ header {z-index: 99;
+{header {z-index: 99;
       background-image: url(../../box/gif/intro-compressed.gif);
       background-size: auto 90vh;
       width: 100vw;
@@ -13,6 +13,7 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 0vh;}
+     
 /* 2ND PAGE */
 .container2 { height: 15vh;
       margin: auto;
