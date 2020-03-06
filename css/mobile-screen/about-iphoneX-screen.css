@@ -6,20 +6,6 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
-.button{ display: none;}
-.button a { display: none;}
-.logo { 
-      padding: 6px 16px;
-      transform: scale(1) ;}
-  
-.burger {  position: fixed;
-            display: block;
-            top: 5px;
-            right: 2vw;
-            padding: 6px;
-            z-index: 999;
-            cursor: pointer;}
-
 header {z-index: 99;
       background-image: url(../../box/gif/intro-compressed-small.gif);
       width: auto;
@@ -45,33 +31,53 @@ header {z-index: 99;
 {min-height: 100vh;
 width: 100vw;
 overflow: hidden;}
+.wrapper{width: 100vw;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(10vh, auto);}
 .empty{background-color: rgb(0, 0, 0);
-      grid-column: 1/4;
-      grid-row: 1/2}
+      grid-column: 1/6;
+      width: 100vw;
+      grid-row: 1/2;}
 .one {background-color: rgb(0, 0, 0);
-      grid-column: 1/4;
-      grid-row: 2/3;}
+      grid-column: 1/3;
+      grid-row: 2/3; 
+      width: 50vw;
+      object-fit: cover;}
       
-.two {background-color: rgb(0, 0, 0);
+.two {width: 50vw;
+      background-color: rgb(0, 0, 0);
       color: white;
-      grid-column: 1/4;
-      grid-row: 4/5;
-      padding: 0vh 10vw;
+      grid-column: 3/6;
+      grid-row: 2/3;
+      padding: 2vh 3vw;
       display: block;
       text-align: left;}
+.two-mobile {
+      width: 100vw;
+      background-color: rgb(0, 0, 0);
+      color: white;
+      grid-column: 1/6;
+      grid-row: 3/4;
+      padding: 0vh 2vw;
+      display: block;
+      text-align: left;}
+.two >h2 { font-size: 1.9em;}
+.two >h4 {display: none;}
 .three {background-color: rgb(0, 0, 0);
-      grid-column: 1/4;
-      grid-row: 7/9;
+      grid-column: 1/6;
+      grid-row: 4/5;
       padding: 5vh 0vh}
 .four {background-color: white;
-      grid-column: 1/4;
-      grid-row: 9/10;}
+      grid-column: 1/6;
+      grid-row: 5/6;}
 
 .resumetitle01 { width: 200vw;}
 .resume_paper { width: 92vw;}
-.profilepic { 
+.profilepic {width: 50vw;
       object-fit: cover;
-      width: 100vw;
       height: auto;}
 
 
@@ -85,11 +91,6 @@ transform: translateX(0px);
 }
 /* animation for iphone screen nav */
 
-
-}
+}}
 /* close iphone screen */
-
-      
-
-
 
