@@ -61,7 +61,7 @@ overflow: hidden;}
       color: white;
       grid-column: 1/6;
       grid-row: 3/4;
-      padding: 0vh 2vw;
+      padding: 2vh 2vw;
       display: block;
       text-align: left;}
 .two >h2 { font-size: 2em;}
