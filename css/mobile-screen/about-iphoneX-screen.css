@@ -6,7 +6,7 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
-header {z-index: 1;
+header {z-index: 99;
       background-image: url(../../box/gif/intro-compressed.gif);
       background-size: auto 90vh;
       width: 100vw;
