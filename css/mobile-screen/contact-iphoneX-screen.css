@@ -61,8 +61,6 @@ font-size: 1.1em;
 font-weight: bold;
 letter-spacing: 2px;}
 
-
-
 /* animation for iphone screen nav */
 @keyframes navLinkFade
 {from{ opacity:0;

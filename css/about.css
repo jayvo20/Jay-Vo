@@ -14,7 +14,6 @@ background-size: cover;
 -webkit-background-attachment: fixed;
 -webkit-background-position: center;
 -webkit-background-size: cover;}
-
 /* logo on nav  */
 
 
@@ -109,17 +108,6 @@ text-align: left;}
 .resume_paper { width: 92vw;}
 
 
-/* Tablet Screen */
-/* Tablet Screen */
-@media screen and (max-width: 1024px)
-{
-.nav-links { display: flex;
-justify-content:space-around;
-width: 60%;}}
-/* Tablet Screen */
-/* Tablet Screen */
-
-
 /* IPHONE SCREEN BURGER BAR */
 /* burger bar *//* burger bar *//* burger bar *//* burger bar */
 .burger{ 
@@ -151,5 +139,12 @@ width: 60%;}}
 
 /* copy right */
 
+/* Tablet Screen */
+/* Tablet Screen */
+@media screen and (max-width: 1024px)
+{
+.nav-links { display: flex;
+justify-content:space-around;
+width: 60%;}}
 
        

@@ -61,19 +61,12 @@ input {height:10vh;}
 border-color: transparent;
 color: white;
 font-weight: bold;
-letter-spacing: 2px;
-border: 1px solid green}
+letter-spacing: 2px;}
 
 .form-control.submit:hover 
 {background-color: #f44336;
 cursor: pointer;}
 
-
-@media screen and (max-width: 880px){
-       .contact-box{ grid-template-columns: 1fr}
-       .left{height: 200px}
-
-}
 /* 2ND PAGE */
 .container {margin: auto; width: 92vw;
       height: 0vh;
@@ -113,13 +106,8 @@ background-color: rgb(0, 0, 0);}
 }
 ul.cat li:last-child:after {
 	position: relative;
-	content: '';
-}
-
-
+	content: '';}
 /* Portfolio Section */
-
- 
 .main-content {
       min-height: 100vh;
       width: 100vw;}
@@ -137,18 +125,6 @@ ul.cat li:last-child:after {
 
 .contact-box {grid-column: 1/4;
             grid-row: 2/5;}
-
-
-/* Tablet Screen */
-/* Tablet Screen */
-@media screen and (max-width: 1024px)
-{
-.nav-links { display: flex;
-justify-content:space-around;
-width: 60%;}}
-/* Tablet Screen */
-/* Tablet Screen */
-
 
 /* IPHONE SCREEN BURGER BAR */
 /* burger bar *//* burger bar *//* burger bar *//* burger bar */
@@ -178,7 +154,18 @@ width: 60%;}}
       margin: auto;width: 92vw;
       background: rgb(255, 145, 0);
 	position: relative;
-	text-align: center;}
+      text-align: center;}
+
+/* Tablet Screen */
+/* Tablet Screen */
+@media screen and (max-width: 880px){
+      .contact-box{ grid-template-columns: 1fr}
+      .left{height: 200px}}
+@media screen and (max-width: 1024px)
+{
+.nav-links { display: flex;
+justify-content:space-around;
+width: 60%;}}
  
           
        
