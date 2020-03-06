@@ -9,7 +9,8 @@ header {z-index: 99;
       background-position: center;
       background-repeat: no-repeat;
       -webkit-background-attachment: fixed;
-      -webkit-background-position: center;}
+      -webkit-background-position: center;
+      -webkit-background-size: cover;}
 
 /* logo on nav in share css */
 
