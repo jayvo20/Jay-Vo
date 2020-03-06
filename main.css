@@ -1,4 +1,4 @@
-header {z-index: 99;
+header {z-index: 1;
       margin-left: auto;
       margin-right: auto;
       margin-top: 10vh;
@@ -7,10 +7,7 @@ header {z-index: 99;
       background-image: url(box/gif/intro-compressed.gif);
       background-attachment: fixed;
       background-position: center;
-      background-repeat: no-repeat;
-      -webkit-background-attachment: fixed;
-      -webkit-background-position: center;
-      -webkit-background-size: cover;}
+      background-repeat: no-repeat;}
 
 /* logo on nav in share css */
 
