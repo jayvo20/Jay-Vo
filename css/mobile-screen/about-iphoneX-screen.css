@@ -7,13 +7,13 @@
 @media screen and (max-width: 440px)
 { 
 header {z-index: 99;
-      background-image: url(../../box/gif/intro-compressed-small.gif);
-      width: auto;
-      height: 30vh;
-      background-color: white;
+      background-image: url(../../box/gif/intro-compressed.gif);
+      background-size: auto 90vh;
+      width: 100vw;
+      height: 50vh;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 7vh;}
+      margin-top: 0vh;}}
 
 /* 2ND PAGE */
 .container2 { height: 15vh;
@@ -91,6 +91,6 @@ transform: translateX(0px);
 }
 /* animation for iphone screen nav */
 
-}}
+}
 /* close iphone screen */
 
