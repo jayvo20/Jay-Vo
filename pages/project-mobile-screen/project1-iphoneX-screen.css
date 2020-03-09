@@ -56,9 +56,9 @@ text-align: left;}
       display: grid;
       height: 150vh;
       width: 100vw;
-      grid-template-rows: repeat(10vh,min);
-      grid-template-columns: repeat(5, 1fr);
-      grid-gap: 0px;
+      -webkit-grid-template-rows: repeat(10vh,min);
+      -webkit-grid-template-columns: repeat(5, 1fr);
+      -webkit-grid-gap: 0px;
       margin: auto;}
 
 .img { width: 100%;
@@ -91,9 +91,9 @@ background-color: white;}
 width: 90vw;
 margin: auto;
 display: grid;
-grid-template-columns: repeat(5, 1fr);
+-webkit-grid-template-columns: repeat(5, 1fr);
 grid-gap: 10px;
-grid-auto-rows: minmax(15vh,auto);}
+-webkit-grid-auto-rows: minmax(15vh,auto);}
 
 /* animation for iphone screen nav */
 @keyframes navLinkFade
