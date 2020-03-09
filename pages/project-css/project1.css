@@ -18,17 +18,13 @@ header {
 .skillset {display: none;
 }
 /* 2ND PAGE */
-.container3 { height: 30vh;;
-margin: auto;
-width: 92vw;
-background: rgb(0, 0, 0);}
 
 /* Category Menu */
 .container {
       margin: auto;
-      width: 92vw;
+      width: 100vw;
       background: rgb(0, 0, 0);
-      height: 5vh;}
+      height: 0vh;}
 
 .wrapper {display:grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -152,6 +148,6 @@ background-color: white;}
 width: 92vw;
 margin: auto;
 display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-gap: 10px;
-grid-auto-rows: minmax(15vh,auto);}
+grid-template-columns: repeat(8, 1fr);
+grid-gap: 0px;
+grid-auto-rows: minmax(5vh,auto);}
