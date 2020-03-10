@@ -54,11 +54,11 @@ text-align: left;}
 .wrapper2{
       background-color: rgb(0, 0, 0);
       display: grid;
-      height: 150vh;
+      min-height: 150vh;
       width: 100vw;
-      -webkit-grid-template-rows: repeat(10vh,min);
-      -webkit-grid-template-columns: repeat(5, 1fr);
-      -webkit-grid-gap: 0px;
+      grid-template-rows: repeat(10vh,min);
+      grid-template-columns: repeat(5, 1fr);
+    grid-gap: 0px;
       margin: auto;}
 
 .img { width: 100%;
@@ -66,7 +66,7 @@ text-align: left;}
        object-fit: cover;}
 
 .large {overflow:hidden;
--webkit-grid-column: span 6;
+grid-column: span 6;
 grid-row: span 1;
 background-color: white;}
 
@@ -94,6 +94,12 @@ display: grid;
 -webkit-grid-template-columns: repeat(5, 1fr);
 grid-gap: 10px;
 -webkit-grid-auto-rows: minmax(15vh,auto);}
+.container5 {padding-top: 20vh;
+      margin: auto;
+      background: rgb(0, 0, 0);
+      position: relative;
+      text-align: center;
+      overflow: hidden;}
 
 /* animation for iphone screen nav */
 @keyframes navLinkFade
