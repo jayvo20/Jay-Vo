@@ -8,7 +8,7 @@
 @media screen and (max-width: 440px)
 { 
 header{z-index: 99;
-      background-size: auto 60vh;
+      background-size: 100vw auto;
       width: auto;
       height: 60vh;
       margin-left: auto;
@@ -77,16 +77,16 @@ background-color: white;}
 
 .medium {overflow:hidden;
       grid-column: span 5;
-      grid-row: span 2;
+      grid-row: span 1;
       background-color: white;}
 
 .tall {overflow:hidden;
       grid-column: span 5;
-      grid-row: span 2;
+      grid-row: span 1;
       background-color: white;}
 .wide {overflow:hidden;
       grid-column: span 5;
-      grid-row: span 2;
+      grid-row: span 1;
       background-color: white;}
 .small {overflow:hidden;
       grid-column: span 5;
