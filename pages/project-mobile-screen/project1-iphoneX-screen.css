@@ -8,19 +8,18 @@
 @media screen and (max-width: 440px)
 { 
 header{z-index: 99;
-      background-size: 100vw auto;
-      width: auto;
+      background-size: 100vw cover;
+      width: 100vw;
       height: 60vh;
       margin-left: auto;
       margin-right: auto;
       margin-top: 0vh;
       background-attachment: fixed;
       background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;}
+      background-repeat: no-repeat;}
 /* 2ND PAGE */
 .main-content {
-      min-height: 200vh;
+      min-height: 100vh;
       width: 100vw;}
 .container {
 margin: auto;
@@ -54,29 +53,28 @@ padding: 0vh 2vw;
 display: block;
 text-align: left;}
 
-.container2 { width: 100vw; min-height: 50vh;}
+.container2 { width: 100vw; min-height: 20vh;}
 
 .wrapper2{
 background-color: rgb(0, 0, 0);
 display: grid;
-min-height: 150vh;
+min-height: 50vh;
 width: 100vw;
 grid-template-rows: repeat(10vh,min);
-grid-template-columns: repeat(5, 1fr);
-grid-gap: 0px;
-margin: auto;border: 5px solid green;}
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 0px;}
 
 .img { width: 100vw;
        height: auto;
        object-fit: cover;}
 
 .large {overflow:hidden;
-grid-column: span 6;
+grid-column: span 3;
 grid-row: span 1;
 background-color: white;}
 
 .medium {overflow:hidden;
-      grid-column: span 5;
+      grid-column: span 3;
       grid-row: span 1;
       background-color: white;}
 
@@ -85,13 +83,15 @@ background-color: white;}
       grid-row: span 1;
       background-color: white;}
 .wide {overflow:hidden;
-      grid-column: span 5;
+      grid-column: span 3;
       grid-row: span 1;
       background-color: white;}
 .small {overflow:hidden;
       grid-column: span 5;
       grid-row: span 1;
       background-color: white;}
+
+      
 .wrapper3 {padding-top: 5vh;
 width: 90vw;
 margin: auto;
