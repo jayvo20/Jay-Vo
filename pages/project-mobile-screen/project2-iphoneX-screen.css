@@ -62,7 +62,7 @@ min-height: 50vh;
 width: 100vw;
 grid-template-rows: repeat(10vh,min);
 grid-template-columns: repeat(3, 1fr);
-grid-gap: 0px;}
+grid-gap: 10px;}
 
 .img { width: 100vw;
        height: auto;
