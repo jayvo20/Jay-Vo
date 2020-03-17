@@ -50,7 +50,7 @@ ul.cat li:last-child:after {
 
 /* Portfolio Section */
 .main-content {
-      min-height: 300vh;
+      min-height: 350vh;
       width: 100vw;
       }
       
@@ -86,28 +86,30 @@ ul.cat li:last-child:after {
 .three {
       background-image: url(../../box/project/3/takogrill-item01.png);
       grid-column: 1/6;
-      grid-row: 6/13;
+      grid-row: 6/14;
       overflow: hidden;
       background-size: cover;}
+      
 .four {grid-column: 1/4;
-      grid-row: 13/17;
+      grid-row: 14/18;
       background-image: url(../../box/project/3/takogrill-item02.png);
-      overflow: hidden;
-      background-size: auto;}
+      background-size: cover;
+overflow: hidden;}
+
 .five {grid-column:4/6;
-      grid-row: 13/17;;
+      grid-row: 14/18;;
       background-image: url(../../box/project/3/takogrill-item03.png);
       overflow: hidden;
       background-size: cover;}
 
 .six {grid-column: 1/4;
-      grid-row: 17/22;
+      grid-row: 18/24;
       background-color: rgb(255, 255, 255);
       background-image: url(../../box/project/3/takogrill-item04.png);
       overflow: hidden;
       background-size: cover;}
 .seven {grid-column: 4/6;
-            grid-row: 17/22;
+            grid-row: 18/24;
             background-color: rgb(255, 255, 255);
             background-image: url(../../box/project/3/takogrill-item05.png);
             overflow: hidden;
