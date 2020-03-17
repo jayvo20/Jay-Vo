@@ -54,7 +54,7 @@ ul.cat li:last-child:after {
 
 /* Portfolio Section */
 .main-content {
-      min-height: 100vh;
+      height: auto;
       width: 100vw;
       overflow: hidden;}
       
