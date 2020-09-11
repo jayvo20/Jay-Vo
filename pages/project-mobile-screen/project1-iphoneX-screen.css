@@ -8,15 +8,14 @@
 @media screen and (max-width: 440px)
 { 
 header{z-index: 99;
-      background-size: 100vw cover;
+      background-size: 100vw auto;
       width: 100vw;
-      height: 60vh;
+      height: 100vh;
       margin-left: auto;
       margin-right: auto;
       margin-top: 0vh;
       background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;}
+      background-position: center;}
 /* 2ND PAGE */
 .main-content {
       min-height: 100vh;
