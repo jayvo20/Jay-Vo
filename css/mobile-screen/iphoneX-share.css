@@ -1,11 +1,78 @@
 @media screen and (max-width: 440px)
 {
+/* Header */
+header{z-index: -1;
+width: 100vw;
+height: 92vh;
+margin-top: 8vh;
+background-position: center;
+background-size: 100vw auto;}
+
+.container {
+margin: auto;
+height: 4vh;
+position: relative;
+color: white;
+width: 92vw;}
+
+.wrapper {display:grid;
+grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(5vh,auto);}
+/* 2ND PAGE */
+.main-content {
+min-height: 60vh;
+width: 100vw;}
+
+.wrapper1{width: 100vw;
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: no-repeat(1, 1fr);
+grid-auto-rows: minmax(10vh,auto);
+grid-gap: 4vh;}
+
+.card {
+grid-column: 1/-1;
+height: auto;
+width: 100vw;
+justify-content: center;
+overflow: hidden;}
+
+.card-image{ width: 100%;
+height: auto;
+object-fit: cover;}
+
+h1 {text-align: center;}
+h4 {text-align: center;}
+h5 { text-align: justify;
+color: rgba(255, 255, 255, 0.815);}
+
+
+/* Photo/Gallery Pictures Section  */
+.container2 { width: 100vw;
+    min-height: 20vh;
+    margin: auto;
+    padding-top:5vw;}
+
+.wrapper2 { display: grid;
+width: 100vw;
+margin-left: auto;
+margin-right: auto;
+grid-gap:1vh 0vw;}
+
+
+.img { width: 100%; 
+  height: auto;
+  object-fit: cover;}
+  
+
+
 /* Burger and Logo Nav */
 .button{ display: none;}
 .button a { display: none;}
 .logo { 
-padding: 6px 16px;
-transform: scale(1) ;}
+padding: 5px 8px;
+transform: scale(0.9) ;}
 .burger {  position: fixed;
 display: block;
 top: 5px;
@@ -19,7 +86,7 @@ nav {z-index: 999;
 position: fixed;
 display: flex;
 justify-content: space-around;
-min-height: 7vh;
+min-height: 8vh;
 width: 100vw;
 margin-left: -0vw;
 background-color:rgb(0, 0, 0);}
