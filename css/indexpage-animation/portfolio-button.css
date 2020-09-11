@@ -2,13 +2,13 @@
 position: absolute;
 justify-content: center;
 align-items: center;
-width: 88vw;
+width: 50%;
+transform: translateX(-50%);
 height: 10vh;
-top: 45vh;
-left: 80px;;
+top: 45%;
 font-family:  'Maven Pro', sans-serif;
-font-weight: 300;
-font-size: 1em;
+font-weight: 400;
+font-size: 1.1em;
 text-transform: uppercase;
 display: -webkit-inline-box;
 display: -moz-inline-box;
@@ -16,9 +16,7 @@ display: inline-box;
 display: -webkit-inline-flex;
 display: -moz-inline-flex;
 display: -ms-inline-flexbox;
-display: inline-flex;
-
-}
+display: inline-flex;}
 
 .button > div {justify-content: center;
 align-items: center;
@@ -27,8 +25,8 @@ width: 160px;
 height: 50px;
 -webkit-perspective: 1000px;
 -moz-perspective: 1000px;
-perspective: 1000px;
-}
+perspective: 1000px;}
+
 .button > div > a {justify-content: center;
 align-items: center;
 margin: 0;
@@ -58,6 +56,7 @@ width: 160px;
 height: 50px;
 position: absolute;
 border: 3px solid black;
+box-shadow: 0px 0px 10px 0.2px rgba(255, 30, 0, 0.315);
 box-sizing: border-box;
 content: attr(title);
 display: -webkit-box;

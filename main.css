@@ -5,9 +5,11 @@ header {z-index: 1;
       width: 100vw;
       height: 86vh;
       background-image: url(box/gif/intro-compressed.gif);
-      
       background-position: center;
       background-repeat: no-repeat;
+      position: relative;
+      overflow: hidden;
+
      }
 /* logo on nav in share css */
 .skillset {display: none;}
