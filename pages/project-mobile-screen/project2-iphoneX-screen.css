@@ -1,71 +1,14 @@
 
-
-
-
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
-{ 
-.wrapper2 { display: grid;
-            width: 92vw;
-            margin-left: auto;
-            margin-right: auto;
-            grid-gap:1vw 0vw;}
+{
+header {background-image: url(../../box/project/2/mobile/shockwave-coverpage-compressed.gif);}
 
-
-
-.img { width: 100vw;
-       height: auto;
-       object-fit: cover;}
-
-.large {overflow:hidden;
-grid-column: span 3;
-grid-row: span 1;
-background-color: white;}
-
-.medium {overflow:hidden;
-      grid-column: span 3;
-      grid-row: span 1;
-      background-color: white;}
-
-.tall {overflow:hidden;
-      grid-column: span 3;
-      grid-row: span 1;
-      background-color: white;}
-.wide {overflow:hidden;
-      grid-column: span 3;
-      grid-row: span 1;
-      background-color: white;}
-.small {overflow:hidden;
-      grid-column: span 3     ;
-      grid-row: span 1;
-      background-color: white;}
-
-      
-.wrapper3 {padding-top: 5vh;
-width: 90vw;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-gap: 10px;
-grid-auto-rows: minmax(15vh,auto);}
-.container5 {padding-top: 20vh;
-      margin: auto;
-      background: rgb(0, 0, 0);
-      position: relative;
-      text-align: center;
-      overflow: hidden;}
 
 /* animation for iphone screen nav */
-@keyframes navLinkFade
-{from{ opacity:0;
-tramsform: translateX(-100px);}
-to
-{opacity: 1;
-transform: translateX(0px);
-}
+
 /* animation for iphone screen nav */
 }
 /* close iphone screen */
-}

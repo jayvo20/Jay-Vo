@@ -7,15 +7,12 @@ header {z-index: 1;
       background-image: url(box/gif/intro-compressed.gif);
       background-position: center;
       background-repeat: no-repeat;
-      position: relative;
-      overflow: hidden;
-
      }
 /* logo on nav in share css */
 .skillset {display: none;}
 
 /* 1st PAGE */
-.container {margin: auto;width: 92vw;
+.container {margin: auto; width: 92vw;
       background: rgb(0, 0, 0);
       height: 5vh;}
 .wrapper { display:grid; 
@@ -43,7 +40,7 @@ ul.cat li:last-child:after {
       content: '';}
 
 /* 2ND PAGE */
-.container2 { height: 26vh;
+.container2 {height: 26vh;
             margin: auto;
             width: 92vw;
             background: rgb(0, 0, 0);
