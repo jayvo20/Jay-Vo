@@ -9,11 +9,12 @@
 
     header  
     {z-index: 99;
+    background-image: url(../../box/project/2/mobile/shockwave1.gif);
     width: 100vw;
     height: 92vh;
     margin-top: 7vh;
     background-position: center;
-    background-size: 100vw 100vh}
+    background-size: 100vw auto;}
 
 
 /* animation for iphone screen nav */
