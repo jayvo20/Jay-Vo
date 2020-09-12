@@ -9,18 +9,22 @@
 
     header  
     {background-color: black;
-        -o-background-size: auto 100vh;
+    -webkit-background-size: auto 100vh;
+    -ms-background-size: auto 100vh;
     -moz-background-size: auto 100vh;
-    -webkit-background-size:auto 100vh;
-    background-image: url(../../box/project/2/mobile/shockwave1.gif);
+    
+    background-image: url("../../box/project/2/mobile/shockwave1.gif");
+    -webkit-background-image: url("../../box/project/2/mobile/shockwave1.gif");
     background-size: auto 100vh;
     width: 100vw;
-      height: 100vh;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 0vh;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0vh;
     background-position: center;
-      background-repeat: no-repeat;}
+    -webkit-background-repeat: no-repeat;
+    -ms-background-repeat: no-repeat;
+    background-repeat: no-repeat;}
 
 
 /* animation for iphone screen nav */
