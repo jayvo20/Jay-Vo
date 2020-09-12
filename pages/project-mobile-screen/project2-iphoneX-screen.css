@@ -8,10 +8,10 @@
       
 header {
     background-image: url("../../box/project/2/mobile/shockwave1.gif");
+    background-size: auto 92vh;
     background-position: center;
-    background-repeat: no-repeat;background-size: 100vw auto;
-    width: 100vw;
-    height: 100vh;}
+    background-repeat: no-repeat;
+    }
 
 
 /* animation for iphone screen nav */
