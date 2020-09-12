@@ -9,6 +9,7 @@
 
     header  
     {
+            object-fit: cover;
     -webkit-background-size: 100vw auto;
     -ms-background-size: 100vw auto;
     -moz-background-size: 100vw auto;
