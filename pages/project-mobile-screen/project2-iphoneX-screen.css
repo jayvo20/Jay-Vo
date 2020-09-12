@@ -13,7 +13,7 @@
     height: 92vh;
     margin-top: 7vh;
     background-position: center;
-    background-size: 100vw auto;}
+    background-size: contain;}
 
 
 /* animation for iphone screen nav */
