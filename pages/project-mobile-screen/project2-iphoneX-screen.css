@@ -9,12 +9,9 @@
 
     header  
     {
-            object-fit: cover;
-    -webkit-background-size: 100vw auto;
-    -ms-background-size: 100vw auto;
-    -moz-background-size: 100vw auto;
-        background-size: 100vw auto;
-  
+
+    -webkit-background-size: contain;
+    background-size: contain;
     width: 100vw;
     height: 100vh;
     margin-left: auto;
