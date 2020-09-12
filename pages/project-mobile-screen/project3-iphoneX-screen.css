@@ -7,14 +7,8 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
-    header  
-    {
-    -o-background-size: 100vw auto;
-    -moz-background-size: 100vw auto;
-    -webkit-background-size: 100vw auto;
-    background-size: 100vw auto;
-    width: 100vw;
-    height: 100vh;}
+header { width: 100vw;
+        height: 100vh;}
 
 
 
