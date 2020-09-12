@@ -1,12 +1,6 @@
 @media screen and (max-width: 440px)
 {
 /* Header */
-header  
-{z-index: -1;
-width: 100vw;
-height: 92vh;
-margin-top: 7vh;
-background-position: center;}
 
 .container {
 margin: auto;
