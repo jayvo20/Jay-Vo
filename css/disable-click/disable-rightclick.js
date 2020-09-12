@@ -1,12 +1,4 @@
+document.querySelector('body').addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+// }) remove }) to able
 
-$(function()
-{
-    $('body').bind('contextmenu',function (e)
-    {
-        e.preventDefault();
-        //not able to right click//
-    })
-    $('body').on("contextmenu",function(e){
-        
-    })
-})
