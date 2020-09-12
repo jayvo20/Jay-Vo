@@ -9,10 +9,10 @@
 
     header  
     {
-    -webkit-background-size: auto 50%;
-    -ms-background-size: auto 50%;
-    -moz-background-size: auto 50%;
-    background-size: auto 50%;
+    -webkit-background-size: 100vw auto;
+    -ms-background-size: 100vw auto;
+    -moz-background-size: 100vw auto;
+    background-size: 100vw auto;
   
     width: 100vw;
     height: 100vh;
