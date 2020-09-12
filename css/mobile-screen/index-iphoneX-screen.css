@@ -15,7 +15,8 @@ header {background-image: url(../../box/gif/intro-compressed-small.gif);
       margin-right: auto;
       margin-top: 0vh;
       background-position: center;
-      background-repeat: no-repeat;}
+      background-repeat: no-repeat;
+      }
 .container {margin: auto;
       width: 100vw;
       background: rgb(0, 0, 0);
