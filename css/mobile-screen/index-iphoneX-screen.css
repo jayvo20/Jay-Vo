@@ -4,7 +4,7 @@
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
 /* Mobile Screen iphoneX*/
-@media screen and (max-width: 440px)
+@media screen and (max-width: 600px)
 { 
 /* begin Header */
 header {background-image: url(../../box/gif/intro-compressed-small.gif);
@@ -79,6 +79,7 @@ margin: auto;}
 .logo { 
 padding: 5px 8px;
 transform: scale(0.9) ;}
+
 .burger {  position: fixed;
 display: block;
 top: 5px;
@@ -174,7 +175,7 @@ padding-top: 20px;}
         {opacity: 1;
         transform: translateX(0px);
         }
-
+      }
 
 /* animation for iphone screen nav */
 @keyframes navLinkFade
@@ -188,6 +189,8 @@ transform: translateX(0px);
 
 }
 }
+
+
 /* close iphone screen */
 
       
