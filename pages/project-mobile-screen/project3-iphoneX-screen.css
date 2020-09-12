@@ -7,22 +7,18 @@
 /* Mobile Screen iphoneX*/
 @media screen and (max-width: 440px)
 { 
-    header  
-    {
-    -webkit-background-size: auto 500px;
-    -ms-background-size: auto 500px;
-    -moz-background-size: auto 500px;
-        background-size: auto 500px;
-  
-    width: 100vw;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0vh;
-    background-position: center;
-    -webkit-background-repeat: no-repeat;
-    -ms-background-repeat: no-repeat;
-    background-repeat: no-repeat;}
+
+    
+header  {
+width: 100vw;
+height: 100vh;
+margin-top: 0vh;
+display: flex;
+justify-content: center;}
+
+.coverimg { width: 160vw; 
+height: auto;
+object-fit: contain;}
 
 
 

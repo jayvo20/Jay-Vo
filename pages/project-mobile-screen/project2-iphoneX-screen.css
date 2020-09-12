@@ -7,19 +7,17 @@
 
 
 
-    header  {
-    width: 100vw;
-    height: 100vh;
+header  {
+width: 100vw;
+height: 100vh;
 margin-top: 0vh;
 display: flex;
-  justify-content: center;}
-  
-        
-  
-  .coverimg { width: 160vw; 
-              height: auto;
-              object-fit: contain;
-              }
+justify-content: center;}
+
+.coverimg { width: 160vw; 
+height: auto;
+object-fit: contain;}
+
 
 
 /* animation for iphone screen nav */
