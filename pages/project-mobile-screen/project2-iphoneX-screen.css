@@ -8,19 +8,17 @@
 
 
     header  
-    {
-
-    -webkit-background-size: contain;
-    background-size: contain;
+    {background-image:url("../../box/project/2/mobile/shockwave-coverpage.gif");
+        background-position:center; 
+        background-attachment:scroll; 
+        -o-background-size:cover; 
+        -moz-background-size:cover; 
+        -webkit-background-size:cover; 
+        background-size:cover; 
+        background-repeat:no-repeat;
+    
     width: 100vw;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0vh;
-    background-position: center;
-    -webkit-background-repeat: no-repeat;
-    -ms-background-repeat: no-repeat;
-    background-repeat: no-repeat;}
+    height: 100vh;}
 
 
 /* animation for iphone screen nav */
