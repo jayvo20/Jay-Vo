@@ -1,13 +1,13 @@
 header {z-index: 1;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 10vh;
+      margin-top: 0vh;
       width: 100vw;
-      height: 86vh;
+      height: 100vh;
       background-image: url(box/gif/intro-compressed.gif);
       background-position: center;
       background-repeat: no-repeat;
-     }
+      background-size: fill;}
 /* logo on nav in share css */
 .skillset {display: none;}
 
