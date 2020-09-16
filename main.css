@@ -67,18 +67,18 @@ ul.cat li:last-child:after {
       grid-gap: 0px;
       margin: auto;}
 
-.project1{background-image:url(box/portfolio/1-musiccover.png);}
-.project2{background-image:url(box/portfolio/2-shockwave.png);}
-.project3{background-image:url(box/portfolio/3-takogrill.png);}
-.project4{background-image:url(box/portfolio/4-website.png);}
-.project5{background-image:url(box/portfolio/5-banana.png);}
-.project6{background-image:url(box/portfolio/6-scoutdoor.png);}
-.project7{background-image:url(box/portfolio/7-bookcover.png);}
-.project8{background-image:url(box/portfolio/8-jaws.jpg);}
-.project9{background-image:url(box/portfolio/9-alphabetposter.jpg);}
-.project10{background-image:url(box/portfolio/10-kingcrab.png);}
-.project11{background-image:url(box/portfolio/11-festivalposter.png);}
-.project12{background-image:url(box/portfolio/12-book.png);}
+.project1{background-image:url(box/index-portfolio/1-musiccover.png);}
+.project2{background-image:url(box/index-portfolio/2-shockwave.png);}
+.project3{background-image:url(box/index-portfolio/3-takogrill.png);}
+.project4{background-image:url(box/index-portfolio/4-website.png);}
+.project5{background-image:url(box/index-portfolio/5-banana.png);}
+.project6{background-image:url(box/index-portfolio/6-scoutdoor.png);}
+.project7{background-image:url(box/index-portfolio/7-bookcover.png);}
+.project8{background-image:url(box/index-portfolio/8-jaws.jpg);}
+.project9{background-image:url(box/index-portfolio/9-alphabetposter.jpg);}
+.project10{background-image:url(box/index-portfolio/10-kingcrab.png);}
+.project11{background-image:url(box/index-portfolio/11-festivalposter.png);}
+.project12{background-image:url(box/index-portfolio/12-book.png);}
 
 .project1:hover,.project2:hover, .project3:hover,.project4:hover,.project5:hover,.project6:hover,.project7:hover,.project8:hover,.project9:hover,.project10:hover,.project11:hover,.project12:hover,.project13:hover,.project14:hover,.project15:hover{
 transform: scale(1.04);

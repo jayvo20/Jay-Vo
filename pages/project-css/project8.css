@@ -1,49 +1,13 @@
-header {
-      z-index: -1;
+header {overflow: hidden;
+      z-index: 1;
       margin-left: auto;
       margin-right: auto;
       margin-top: 10vh;
       width: 92vw;
       height: 70vh;
-      background-color: rgb(0, 0, 0);
-      background-image: url(../../box/project/2/shockwave-coverpage.gif);
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;}
+      background-color: rgb(0, 0, 0);}
 /* logo on nav  */ 
 /* share.css */
-.skillset {display: none;}
-
-.container {
-      margin: auto;
-      width: 92vw;
-      background: rgb(0, 0, 0);
-      height: 1.6vw;}
-
-.wrapper {display:grid;
-	grid-template-columns: repeat(1, 1fr);
-      grid-auto-rows: minmax(5vh,auto);}
-
-
-/* Intro PAGE  about the Project*/
-.main-content {
-      min-height: 8vh;
-      width: 92vw;
-      margin: 0 auto;}
-
-.wrapper1{width: 92vw;
-      margin-left: auto;
-      margin-right: auto;
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      grid-auto-rows: minmax(15vh,auto);
-      grid-gap:0 1vw;}
-
-/* .empty{max-height: 10vh;
-      background-color: rgb(170, 170, 170);
-      grid-column: 1/6;
-      grid-row: 1/2;} */
 
 /* 2 SECTIONS */
 .card {background: rgb(0, 0, 0);
@@ -51,41 +15,6 @@ width: 45.5vw;
 height: auto;
 overflow: hidden;}
 
-.card-image{ width: 100%;
-height: auto;
-object-fit: contain;}
-
-h1 {color: white;
-      text-align: left;
-      padding: 3vh 3vw;}
-h4 {color: white;
-text-align: left;
-padding: 0vh 3vw;}
-
-h5 {color: white;
-      background-color: rgb(0, 0, 0);
-      color: white;
-      padding: 3vh 3vw;
-      display: block;
-      text-align: left;}
-
-
-/* The Gallery - Showing Projects  */
-.container2 { width: 92vw;
-            min-height: 100vh;
-            margin: auto;
-            padding-top:1vw;}
-
-.wrapper2 { display: grid;
-            width: 92vw;
-            margin-left: auto;
-            margin-right: auto;
-            grid-gap:1vw 0vw;}
-
-
-.img { width: 100%; 
-      height: 100%;
-      object-fit: cover;}
 
       .small {overflow: hidden;
             grid-column: span 3;
@@ -116,13 +45,6 @@ h5 {color: white;
 
 /* Previous and Next button */
 /* share.css */
-.wrapper3 {padding-top: 10vh;
-width: 92vw;
-margin: auto;
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-gap: 10px;
-grid-auto-rows: minmax(15vh,auto);}
 
 /* Footers Section  */
 /* share.css */
