@@ -4,7 +4,7 @@ header {overflow: hidden;
       margin-right: auto;
       margin-top: 10vh;
       width: 92vw;
-      height: 70vh;
+      height: auto;
       background-color: rgb(0, 0, 0);}
 /* control color for header */
 /* Intro PAGE  about the Project*/
@@ -21,27 +21,27 @@ header {overflow: hidden;
       .small {overflow: hidden;
             grid-column: span 3;
             grid-row: span 2;
-            background-color: white;}
+            background-color: #EEBDC0;}
       
       .medium { grid-column: span 3;
             grid-row: span 3;
             overflow: hidden;
-            background-color: rgb(126, 61, 61);}
+            background-color: #EEBDC0;}
       
       .large {overflow:hidden;
             grid-column: span 6;
             grid-row: span 2;
-            background-color: rgb(255, 255, 255);}
+            background-color: #EEBDC0;}
       
       .tall{ overflow:hidden;
             grid-column: span 6;
             grid-row: span 4;
-            background-color: black;}
+            background-color: #EEBDC0;}
       
       .wide {overflow:hidden;
             grid-column: span 6;
             grid-row: span 1;
-            background-color: white;}
+            background-color: #EEBDC0;}
 
 
 
