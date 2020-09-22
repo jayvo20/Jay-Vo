@@ -20,19 +20,20 @@ header {background-image: url(../../box/gif/intro-compressed-small.gif);
 .container {margin: auto;
       width: 100vw;
       background: rgb(0, 0, 0);
-      height: 2vh;}
+      height: 5vh;}
 
 /* container2 */
 
-.container2 { height: 12vh;
+.container2 { height: auto;
              margin: auto;
-             width: 100vw;}
+             width: 100vw;
+            padding-bottom: 5vh;}
 
-.worktitle { width: 200vw;
+.worktitle { width: 100vw;
             height: auto;}
 
 .main-content 
-{padding-top: 3vh;
+{padding-top: 0vh;
       min-height: 100vh;
 width: 100vw;}
 

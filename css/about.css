@@ -93,6 +93,7 @@ grid-gap:0 1vw;}
       .wide {overflow:hidden;
             grid-column: span 6;
             grid-row: span 2;
+            padding: 5vh 0vh;
             background-color: rgb(0, 0, 0);}
       
 
