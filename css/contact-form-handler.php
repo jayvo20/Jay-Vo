@@ -1,11 +1,10 @@
-
 <?php
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 
-$email_from = 'yourname@yourwebsite.com';
+$email_from = 'EasyTutorials@avinashr.com';
 
 $email_subject = "New Form Message - From Client";
 
@@ -22,7 +21,7 @@ $headers .= "Reply To: $visitor_email \r\n";
 
 mail($to,email_subject,$email_body,$headers);
 
-header("Location: index.html");
+header("Location: ../contact.html");
 
 
 
