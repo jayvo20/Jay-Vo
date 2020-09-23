@@ -56,7 +56,7 @@ grid-auto-rows: minmax(5vh,auto);}
 
 
 .contact-box {grid-column: 1/4;
-grid-row: 2/5;}
+grid-row: 2/3;}
 
 
 .contact-header { 
@@ -121,7 +121,7 @@ cursor: pointer;}
 
 
  /* footer nav  */
- .container5 {padding-top: 20vh;
+ .container5 {padding-top: 0vh;
       margin: auto;width: 92vw;
       background: rgb(255, 255, 255);
 	position: relative;
