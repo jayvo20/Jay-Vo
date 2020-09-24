@@ -40,7 +40,8 @@ ul.cat li:last-child:after {
       content: '';}
 
 /* 2ND PAGE */
-.container2 {height: 12vh;
+.container2 {height: auto;
+      padding-bottom: 5vh;
             margin: auto;
             width: 92vw;
             background: rgb(0, 0, 0);
