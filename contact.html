@@ -107,19 +107,33 @@ Jay Vo / Contact
                 
         </div>
 
-        <div class="formContainer">
-                <div class="contactForm">
-                        <form id="contactform" action="https://formsubmit.io/send/put your email here" method="POST">
-                                <input name="name" type="text" id="name">
-                                <input name="email" type="email" id="email">
-                                <textarea name="comment" id="comment" rows="3"></textarea>
-                            
-                                <input name="_formsubmit_id" type="text" style="display:none">
-                            
-                                <input value="Submit" type="submit">
-                            </form>
+<h2>Get in touch</h2>
+
+<form method="post" data-netify="true">
+<div class="fields">
+        <div class="field half">
+                <input type="text" name="name" id="name" placeholder="Name" />
+        </div>
+        <div class="field half">
+                <input type="email" name="email" id="email" placeholder="Email" />
+        </div>
+        <div class="field">
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+        </div>
+
+        <div class="field">
+                <input type="file" name="myfile" id="myfile" placeholder="Upload File" row="7">
+        </div>
+        <div class="field">
+                <div 
+                data-netlify-recaptcha="true">
                 </div>
         </div>
+</div>
+<ul class="actions">
+        <li><input type="submit" value="Send" class="primary" /></li>
+</ul>
+</form>
         <!-- <div class="contact-form">
                 <form id="contact-form" method="post" action="contact-form-handler.php">
                 <input name="name" type="text" class="form-control" placeholder="Your Name" required>
