@@ -1,6 +1,5 @@
 +++
 date= "2020"
-title= "Cheers!"
+title= "Thank You For Your Submission!"
 +++
 
-### Thank You For Your Submission
