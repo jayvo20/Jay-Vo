@@ -1,0 +1,195 @@
+
+
+
+/* Mobile Screen iphoneX*/
+/* Mobile Screen iphoneX*/
+/* Mobile Screen iphoneX*/
+@media screen and (max-width: 440px){
+
+      header {
+            background-size: auto 40vh;
+            width: 100vw;
+            height: 40vh;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;}
+     
+/* 2ND PAGE */
+
+      h4 {color: white;
+      font-size: 1.2em; }
+      h1 { font-size: 2em;
+            color: #ffffff;}
+
+
+
+
+
+
+
+.main-content {min-height: 0vh;
+               width: 100vw;}
+
+.wrapper{width: 92vw;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      grid-auto-rows: minmax(10vh, auto);}
+
+.empty{background-color: rgb(0, 0, 0);
+      grid-column: 1/4;
+      grid-row: 1/2;
+margin-left:auto;
+margin-right: auto;}
+
+
+
+
+
+
+
+
+
+/* Burger and Logo Nav */
+.button{ display: none;}
+.button a { display: none;}
+.logo { 
+padding: 5px 8px;
+transform: scale(0.9) ;}
+
+.burger {  position: fixed;
+display: block;
+top: 5px;
+right: 2vw;
+padding: 6px;
+z-index: 999;
+cursor: pointer;}
+
+/* Nav */
+nav {z-index: 999;
+position: fixed;
+display: flex;
+justify-content: space-around;
+min-height: 7vh;
+width: 100vw;
+margin-left: -0vw;
+background-color:rgb(0, 0, 0);}
+
+.nav-links{ 
+position: fixed;
+z-index: 999;
+top: 6vh;
+right: 0vw;
+width: 100vw;
+height: 500vh;
+background-color: rgb(0, 0, 0);
+display: inline-block;
+align-items: center;
+transform: translateY(100%);
+transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+font-size: 30px;
+font-weight: 300;
+letter-spacing: 0.5px;
+overflow: hidden;
+padding: 0vh 0;}
+.nav-links ul {}
+.nav-links li {
+cursor: pointer;
+opacity: 0;
+margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(0, 0, 0);
+height: 22vh;
+width: 100vw;}
+
+.nav-links a{
+color: white;}
+.nav-links:hover li a{display: none;}
+.nav-links li a:hover {display: none;}
+
+.nav-active {transform: translateY(-0%);}
+/* Ending Navigation Tab */
+.container5 { width: 100vw;}
+    
+.footer-nav {display: none;}
+.s-m {width: 90vw;
+margin: auto;}
+.s-m a{width: 55px;
+height: 55px;
+margin: auto;
+margin: 10px;}
+.footer-copyright{width:94vw;
+margin: auto;
+padding-top: 20px;}
+.footer-logos {display:none;}
+    .btn-default {
+        background-color: black;
+        color: white;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        border: 3px solid rgb(255, 255, 255);
+        padding: 6px 14px;}
+        
+        @keyframes navLinkFade
+        {from{ opacity:0;
+        tramsform: translateX(-100px);}
+        to
+        {opacity: 1;
+        transform: translateX(0px);
+        }
+      }
+
+/* animation for iphone screen nav */
+@keyframes navLinkFade
+{from{ opacity:0;
+tramsform: translateX(-100px);}
+to
+{opacity: 1;
+transform: translateX(0px);
+}
+/* animation for iphone screen nav */
+
+}
+
+
+
+/* close iphone screen */
+
+      
+
+        
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+#Layer_1 { margin-top: 25%;
+margin-left: auto;
+margin-right: auto;}
+.header { height: 100vh;
+width: 100vw;}}
+
+
+/* animation for iphone screen nav */
+@keyframes navLinkFade
+{from{ opacity:0;
+tramsform: translateX(-100px);}
+to
+{opacity: 1;
+transform: translateX(0px);
+}
+}
+}
+/* close iphone screen */
+

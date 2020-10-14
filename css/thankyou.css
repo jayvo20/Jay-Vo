@@ -1,9 +1,9 @@
 header {z-index: 1;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 20vh;
+      margin-top: 10vh;
       width: 100vw;
-      height: 50vh;
+      height: 60vh;
       background-image: url(../box/img/thankyou.gif);
       background-position: center;
       background-repeat: no-repeat;
@@ -13,7 +13,12 @@ header {z-index: 1;
       -webkit-background-repeat: no-repeat;}
 
 h4 {color: white;}
-h1 {color: white;}
+h1 { color: #ffffff;
+      transform: scale(1.2);
+      font-size: calc(1em + 20vw);
+      font-weight: 900;
+      text-shadow: -0.0075em 0.0075em 0 #fef2f6, 0.005em 0.005em 0 #f6a5c1, 0.01em 0.01em 0 #f7aac4, 0.015em 0.015em #f7aec7, 0.02em 0.02em 0 #f8b3ca, 0.025em 0.025em 0 #f8b7cd, 0.03em 0.03em 0 #f8bcd0, 0.035em 0.035em 0 #f9c0d3;
+    }
 
 /* logo on nav in share css */
 .skillset {display: none;}
