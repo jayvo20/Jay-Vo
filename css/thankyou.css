@@ -1,0 +1,145 @@
+header {z-index: 1;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20vh;
+      width: 100vw;
+      height: 50vh;
+      background-image: url(../box/img/thankyou.gif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      -webkit-background-size: contain;
+      -webkit-background-position: center;
+      -webkit-background-repeat: no-repeat;}
+
+h4 {color: white;}
+h1 {color: white;}
+
+/* logo on nav in share css */
+.skillset {display: none;}
+
+/* empty space PAGE */
+.container {margin: auto; width: 92vw;
+      background: rgb(0, 0, 0);
+      height: 0vh;}
+.wrapper { display:grid; 
+	grid-template-columns: repeat(1, 1fr);
+	grid-auto-rows: minmax(5vh,auto);}
+
+
+
+/*Title Section */
+.container2 {margin: auto;width: 92vw;
+background: rgb(0, 0, 0);
+height: auto;}
+.contacttitle {padding: 5vh 0vh;
+width: 92vw;
+height: auto;
+background-color: rgb(0, 0, 0);}
+.undertittle { width: 92w;
+height: 20vh;
+background-color: black;
+object-fit: cover;}
+.empty{background-color: rgb(0, 0, 0);
+      grid-column: 1/4;
+      grid-row: 1/2}
+
+
+/* Below Title Section */
+.main-content {
+height: auto;
+width: 92vw;
+overflow: hidden;
+margin: auto;}
+
+.wrapper2 { display:grid;
+grid-template-columns: repeat(1, 1fr);
+grid-auto-rows: minmax(5vh,auto);}
+/* Form Contact */
+
+
+.contact-box {grid-column: 1/4;
+grid-row: 2/3;}
+
+
+.contact-header { 
+      font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+      color: rgb(116, 116, 116); }
+
+
+.form {
+transition: all 4s ease-in-out; }
+
+.form-control{
+      margin-left: auto;
+      margin-right: auto;
+      width:50vw;
+      margin-top: 0vh;
+      background: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid grey;
+      font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+      color: rgb(233, 99, 99);
+      font-size: 1.5em;
+      margin-bottom: 16px;}
+input {height:10vh;}
+textarea {height:20vh;}
+
+.form-control.submit { background :#ff0000 ;
+      margin-top: 10vh;
+border-color: transparent;
+color: white;
+font-weight: bold;
+letter-spacing: 2px;}
+
+.form-control.submit:hover 
+{background-color: #f44336;
+cursor: pointer;}
+
+
+/* IPHONE SCREEN BURGER BAR */
+/* burger bar *//* burger bar *//* burger bar *//* burger bar */
+.burger{ 
+      width: 60px;
+      display: none;}
+.burger div{
+      width: 38px;
+      height: 4px;
+      border-radius: 2px;
+      background-color: rgb(0, 0, 0);
+      margin: 6px;
+      transition: all 0.3s ease;}
+
+.toggle .line1{ transform:rotate(-45deg) translate(-8px, 6px);}
+.toggle .line2{ opacity: 0;}
+.toggle .line3{ transform:rotate(45deg) translate(-8px, -6px);}
+
+
+
+
+/* burger bar *//* burger bar *//* burger bar *//* burger bar */
+
+
+ /* footer nav  */
+ .container5 {padding-top: 20vh;
+      margin: auto;width: 92vw;
+      background: rgb(255, 255, 255);
+	position: relative;
+      text-align: center;}
+
+/* Tablet Screen */
+/* Tablet Screen */
+@media screen and (max-width: 880px){
+      .contact-box{ grid-template-columns: 1fr}
+      .left{height: 200px}}
+@media screen and (max-width: 1024px)
+{
+.nav-links { display: flex;
+justify-content:space-around;
+width: 60%;}}
+ 
+          
+       
