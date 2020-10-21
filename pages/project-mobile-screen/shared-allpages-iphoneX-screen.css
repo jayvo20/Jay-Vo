@@ -58,22 +58,22 @@ grid-gap:1vh 0vw;}
 height: auto;
 object-fit: cover;
 -webkit-touch-callout: inherit;}
-  
+
 /* Previous & Next button */
 .wrapper3 {padding-top: 5vh;
-    width: 90vw;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(15vh,auto);}
+width: 90vw;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-gap: 10px;
+grid-auto-rows: minmax(15vh,auto);}
 
 /* Burger and Logo Nav */
 .button{ display: none;}
 .button a { display: none;}
 .logo { 
 padding: 5px 8px;
-transform: scale(1) ;}
+transform: scale(1);}
 .burger {  position: fixed;
 display: block;
 top: 5px;
@@ -130,14 +130,14 @@ color: white;}
 /* Ending Navigation Tab */
 
 .container5 {
-    width: 100vw;
-    padding-top: 20vh;
-    margin: auto;
-    background: rgb(0, 0, 0);
-    position: relative;
-    text-align: center;
-    overflow: hidden;}
-    
+width: 100vw;
+padding-top: 20vh;
+margin: auto;
+background: rgb(0, 0, 0);
+position: relative;
+text-align: center;
+overflow: hidden;}
+
 .footer-nav {display: none;}
 .s-m {width: 90vw;
 margin: auto;}
@@ -151,33 +151,30 @@ padding-top: 20px;}
 .footer-logos {display: none;}
 
 .previous {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    float: left;}
-    
-    .next {
-    grid-column: 7/8;
-    grid-row: 1/2;
-    float: right;}
-    .btn-default {
-        background-color: black;
-        color: white;
-        font-family: 'Archivo Narrow', sans-serif;
-        font-size: 1em;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        text-transform: uppercase;
-        border: 3px solid rgb(255, 255, 255);
-        padding: 6px 14px;}
-        
-        @keyframes navLinkFade
-        {from{ opacity:0;
-        tramsform: translateX(-100px);}
-        to
-        {opacity: 1;
-        transform: translateX(0px);
-        }
-        }
+grid-column: 1/2;
+grid-row: 1/2;
+float: left;}
 
+.next {
+grid-column: 7/8;
+grid-row: 1/2;
+float: right;}
+.btn-default {
+background-color: black;
+color: white;
+font-family: 'Archivo Narrow', sans-serif;
+font-size: 1em;
+font-weight: 700;
+letter-spacing: 0.5px;
+text-transform: uppercase;
+border: 3px solid rgb(255, 255, 255);
+padding: 6px 14px;}
 
+@keyframes navLinkFade
+{from{ opacity:0;
+tramsform: translateX(-100px);}
+to
+{opacity: 1;
+transform: translateX(0px);
 }
+}}
