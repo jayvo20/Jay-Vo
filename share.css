@@ -181,7 +181,7 @@ position: static;}
 
 .footer-logos a.company-logo img{
   width: 8vh;
-  height: 8vh;
+  height: auto;
   margin-bottom: 10px;}
 
 
