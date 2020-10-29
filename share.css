@@ -50,10 +50,12 @@ font-size: 0.85em;
 font-weight: 300;
 letter-spacing: 0.5px;} /* body copy */
 
-h6 {font-family: 'Fauna One', serif;
-  font-size: 0.75em;
+h6 {
   font-weight: 300;
+  letter-spacing: 0.5px;
+  font-family: 'Archivo Black', sans-serif;
   letter-spacing: 0.5px;}
+
 a:link {
 text-decoration: none;}
 
